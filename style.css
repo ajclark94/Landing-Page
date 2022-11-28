@@ -1,16 +1,18 @@
-#header, #section1, #footer {
-    background-color: #1f2937;
-    color: #f9faf8;
+#section1 {
+  background-color: #1f2937;
 }
 
-#header {
-    display: flex;
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
 }
 
-.links {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    gap: 16px;
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
 }
